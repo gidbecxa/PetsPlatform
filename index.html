@@ -8,52 +8,89 @@
   <title>MyPetSpotlight</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.css" rel="stylesheet"
     type="text/css" />
-  <link rel="icon" type="image/x-icon" href="./assets/icons/owner.ico">  
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/icons/owner.ico">
 </head>
 
 <body>
-
-  <!-- SLider  -->
-
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" id="s1"> <img src="./assets/slider_img/cat.jpg" alt="" srcset=""> </div>
-      <div class="swiper-slide" id="s2"> <img src="./assets/slider_img/dog.jpg" alt="" srcset=""> </div>
-      <div class="swiper-slide" id="s3"> <img src="./assets/slider_img/hamster1.jpg" alt="" srcset=""> </div>
-      <div class="swiper-slide" id="s4"> <img src="./assets/slider_img/dog1.jpg" alt="" srcset=""> </div>
-      <div class="swiper-slide" id="s3"> <img src="./assets/slider_img/hamster.jpg" alt="" srcset=""> </div>
+  <header>
+    <!-- Slider  -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" id="s1">
+          <!-- <img src="./assets/slider_img/cat.jpg" alt="" srcset=""> -->
+          <img src="./assets/new_slider/beautiful-pet-portrait-small-dog-cat.jpg" alt="a pet dog">
+        </div>
+        <div class="swiper-slide" id="s2">
+          <!-- <img src="./assets/slider_img/dog.jpg" alt="" srcset=""> -->
+          <img src="./assets/new_slider/pexels-simona-kidrič-2607544.jpg" alt="a cute laying cat">
+        </div>
+        <div class="swiper-slide" id="s3">
+          <!-- <img src="./assets/slider_img/hamster1.jpg" alt="" srcset=""> -->
+          <img src="./assets/new_slider/ricky-kharawala-adK3Vu70DEQ-unsplash.jpg" alt="a cute little bunny">
+        </div>
+        <div class="swiper-slide" id="s4">
+          <!-- <img src="./assets/slider_img/dog1.jpg" alt="" srcset=""> -->
+          <img src="./assets/new_slider/pexels-pixabay-57416.jpg" alt="a white cat laying with an object">
+        </div>
+        <div class="swiper-slide" id="s5">
+          <!-- <img src="./assets/slider_img/hamster.jpg" alt="" srcset=""> -->
+          <img src="./assets/new_slider/karsten-winegeart-5PVXkqt2s9k-unsplash.jpg"
+            alt="a cute puppy dressed in a yellow cardigan">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
-    <div class="swiper-pagination"></div>
-  </div>
+    <!-- Slider ends here -->
 
-  <!-- Introduction -->
-
-  <div class="welcome">
-
-    <h2>Welcome to MyPetSpotlight!</h2>
-    <p id="petcommunity">Welcome to our pet lovers community!</p>
-    <p id="describe">
-      We are excited to provide you with a platform where you can showcase
-      your furry friends and their unique personalities. Our website allows
-      you to submit your pet's name, age, and favourite toy, giving them the
-      spotlight they deserve. Whether you have a playful pup or a lazy
-      feline, we want to see them all! Join us in celebrating the love and
-      joy that our pets bring into our lives.
-    </p>
-    <p id="submit">
-      Submit your pet's information now and share their story with the
-      world!
-    </p>
     <nav>
+      <div class="logo">
+        <h2>My<span>Pet</span>Spotlight</h2>
+      </div>
+
+      <menu>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Explore</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Support</a>
+        </li>
+      </menu>
+
       <a class="navbar-button" href="https://github.com/gabrysia694/MyPetSpotlight" target="_blank">
         Add your pet!
       </a>
     </nav>
-  </div>
-  <img id="photo" alt="" />
+
+    <!-- Introduction -->
+
+    <div class="welcome">
+      <h1>Welcome to MyPetSpotlight!</h1>
+      <h4>Join the Pet Lovers Community at MyPetSpotlight - Give Your Furry Friends the Spotlight They Deserve!</h4>
+      <!-- <p id="petcommunity">Welcome to our pet lovers community!</p>
+      <p id="describe">
+        We are excited to provide you with a platform where you can showcase
+        your furry friends and their unique personalities. Our website allows
+        you to submit your pet's name, age, and favourite toy, giving them the
+        spotlight they deserve. Whether you have a playful pup or a lazy
+        feline, we want to see them all! Join us in celebrating the love and
+        joy that our pets bring into our lives.
+      </p> -->
+      <p id="submit">
+        Submit your pet's information now and share their story with the
+        world!
+      </p>
+    </div>
+    <!-- <img id="photo" alt="" /> -->
+  </header>
 
   <!-- Cards of Pets -->
 
@@ -73,7 +110,7 @@
           <strong> Type of animal: </strong>
           <span>Cat</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>4 years</span>
@@ -146,17 +183,17 @@
           <strong> Name: </strong>
           <span>August</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Cat</span>
         </div>
-      
+
         <div class="age">
           <strong> Age: </strong>
           <span>2 years</span>
         </div>
-   
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -165,7 +202,7 @@
             <li>Quirky</li>
           </ul>
         </div>
-   
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Foil Ball</span>
@@ -185,17 +222,17 @@
           <strong> Name: </strong>
           <span>Cooper</span>
         </div>
-      
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-    
+
         <div class="age">
           <strong> Age: </strong>
           <span>5 years</span>
         </div>
- 
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -204,7 +241,7 @@
             <li>Friendly</li>
           </ul>
         </div>
-      
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Chew Rope</span>
@@ -224,17 +261,17 @@
           <strong> Name: </strong>
           <span>Bubble</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Goldfish</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>2 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -244,7 +281,7 @@
             <li>Lazy</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Ping Pong Balls</span>
@@ -264,17 +301,17 @@
           <strong> Name: </strong>
           <span>Sheru</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>3 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -283,7 +320,7 @@
             <li>Protective</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Chappal</span>
@@ -303,17 +340,17 @@
           <strong> Name: </strong>
           <span>Whiskey</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>2 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -321,7 +358,7 @@
             <li>Enthusiastic</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Plushy Carrot</span>
@@ -331,7 +368,7 @@
           <strong> Owner: </strong>
           <span> <a href="https://github.com/Yuva0"> Tanuj </a> </span>
         </div>
-      </div>  
+      </div>
     </div>
 
     <div class="card">
@@ -341,17 +378,17 @@
           <strong> Name: </strong>
           <span>Shadow</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Cat</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>1 and a half years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -360,7 +397,7 @@
             <li>Playful</li>
           </ul>
         </div>
-        
+
         <div class="toy" class="toys">
           <strong> Favourite toy: </strong>
           <span>Feather wand</span>
@@ -380,17 +417,17 @@
           <strong> Name: </strong>
           <span>Amber</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Hamster</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>2 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -399,7 +436,7 @@
             <li>Freaky</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Willow Balls</span>
@@ -419,17 +456,17 @@
           <strong> Name: </strong>
           <span>Maximus</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Cat</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>1.5 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -438,7 +475,7 @@
             <li>Moody</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Carrom</span>
@@ -458,17 +495,17 @@
           <strong> Name: </strong>
           <span>Max</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>3 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -476,12 +513,12 @@
             <li>Energetic</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Chew Rope</span>
         </div>
-        
+
         <div class="owner">
           <strong> Owner: </strong>
           <span> <a href="https://github.com/AnkitAnandMastery17"> Ankit </a> </span>
@@ -496,17 +533,17 @@
           <strong> Name: </strong>
           <span>Oreo</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Cat</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>7 months</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -515,7 +552,7 @@
             <li>Sleepy</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Legs</span>
@@ -535,17 +572,17 @@
           <strong> Name: </strong>
           <span>Borf</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>10 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -554,7 +591,7 @@
             <li>Fatty</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Squeaky Gloves</span>
@@ -574,17 +611,17 @@
           <strong> Name: </strong>
           <span>Pippa</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>5 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -593,7 +630,7 @@
             <li>Barky</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Ball</span>
@@ -613,17 +650,17 @@
           <strong> Name: </strong>
           <span>Grim</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>4 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -632,7 +669,7 @@
             <li>Intelligent</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Frisbee</span>
@@ -652,17 +689,17 @@
           <strong> Name: </strong>
           <span>Eren</span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span>Dog</span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>6 years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -671,7 +708,7 @@
             <li>Mean</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span>Socks</span>
@@ -681,7 +718,7 @@
           <strong> Owner: </strong>
           <span> <a href="https://github.com/Raulj123">Raul</a> </span>
         </div>
-      </div>  
+      </div>
     </div>
 
     <div class="card">
@@ -691,17 +728,17 @@
           <strong> Name: </strong>
           <span> Maxwell </span>
         </div>
-        
+
         <div class="animal">
           <strong> Type of animal: </strong>
           <span> Cat </span>
         </div>
-        
+
         <div class="age">
           <strong> Age: </strong>
           <span>One years</span>
         </div>
-        
+
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -711,7 +748,7 @@
             <li> Food Lover</li>
           </ul>
         </div>
-        
+
         <div class="toy">
           <strong> Favourite toy: </strong>
           <span> Stuffed animal</span>
@@ -721,15 +758,15 @@
           <strong> Owner: </strong>
           <span> <a href="https://github.com/isurumaldeniya">Isuru </a> </span>
         </div>
-      </div>  
+      </div>
     </div>
-    
+
     <!-- Add your pet above -->
 
   </div>
-    </div>
+  </div>
 
-    <!-- Add your pet above -->
+  <!-- Add your pet above -->
 
   </div>
 

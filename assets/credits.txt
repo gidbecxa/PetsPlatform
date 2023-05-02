@@ -1,0 +1,5 @@
+1st slider Image by <a href="https://www.freepik.com/free-photo/beautiful-pet-portrait-small-dog-cat_21249178.htm#query=pets&position=4&from_view=search&track=sph">Freepik</a>
+2nd slider Photo by Photo by Simona Kidrič from Pexels: https://www.pexels.com/photo/medium-short-coated-white-dog-on-white-textile-2607544/
+3rd slider Photo by <a href="https://unsplash.com/it/@kanashi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kanashi</a> on <a href="https://unsplash.com/photos/tdmvrjF_14k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+4th slider Photo by Pixabay: https://www.pexels.com/photo/close-up-photo-of-yellow-and-white-cat-57416/
+5th slider Photo by <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Winegeart</a> on <a href="https://unsplash.com/photos/5PVXkqt2s9k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
